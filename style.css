@@ -11,5 +11,12 @@ img.maingif{
     width: auto;
 }
 body.darker{
-    background: #eeeeee;
+    background: #fcf0e8;
 }
+div.shadow{
+    box-shadow: argb(0,0,0,0.2);
+}
+div.darker{
+    background: #eddecd;
+}
+
