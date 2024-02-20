@@ -10,3 +10,6 @@ img.maingif{
     height: 400px;
     width: auto;
 }
+body.darker{
+    background: #dfebff;
+}
