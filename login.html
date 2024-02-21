@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="darker">  
+<body class="darker">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -53,17 +53,25 @@
         <div class="container">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">E-mail</span>
+                    <div class="container pr-1">
+                        <span class="input-group-text my-button-color" id="basic-addon1">E-mail</span>
+                    </div>
                 </div>
-                <input type="text" class="form-control" placeholder="example@example.com" aria-label="example@example.com" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="example@example.com"
+                    aria-label="example@example.com" aria-describedby="basic-addon1">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">Password</span>
+                    <div class="container pr-1">
+                        <span class="input-group-text my-button-color" id="basic-addon1">Password</span>
+                    </div>
                 </div>
-                <input type="password" class="form-control" placeholder="********" aria-label="********" aria-describedby="basic-addon1">
+                <input type="password" class="form-control" placeholder="********" aria-label="********"
+                    aria-describedby="basic-addon1">
             </div>
-            <button type="button" class="btn btn-outline-primary">Login</button>
+            <div class="text-center">
+                <button type="button" class="btn my-button-color">Login</button>
+            </div>
         </div>
     </main>
     <footer class="my-5 pt-5 text-muted text-center text-small">

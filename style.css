@@ -1,3 +1,24 @@
+.my-card-color {
+    background-color: #eddecd;
+    border: #30363b;
+    color: #30363b;
+}
+.my-card-header-color {
+    background-color: #30363b;
+    border-color: #30363b;
+    color: #fdfdfd;
+}
+.my-button-color {
+    background-color: #e7d0b6;
+    border-color: #30363b;
+    color: #30363b;
+}
+.my-button-color-num {
+    background-color: #faeee0;
+    border-color: #30363b;
+    color: #30363b;
+}
+
 img.logo {
     height: 50px;
     width: auto;
